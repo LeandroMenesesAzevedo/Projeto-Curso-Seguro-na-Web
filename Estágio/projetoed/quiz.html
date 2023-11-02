@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="questionario.js" async></script> <!-- O async é para garantir que nosso javascript irá iniciar somente quando o html estiver terminado. -->
+    <link rel="stylesheet" href="estilodosite/estiloquiz.css" /> 
+    <link rel="shortcut icon" href="imagens/Logo_semfd.png" type="image/x-icon">
+    
+    <title>Quiz Javascript</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="questions-container hide"><!-- classe hide será para esconder as perguntas antes de começar-->
+            <span class="question"> Pergunta aqui? </span>
+            <div class="answers-container">
+                <button class="answer button"> Reposta 1 </button>
+                <button class="answer button"> Resposta 2 </button>
+                <button class="answer button"> Resposta 3 </button>
+                <button class="answer button"> Resposta 4 </button>
+            </div>
+        </div>
+        <div class="controls-container">
+            <button class="start-quiz button"> Começar Quiz! </button>
+            <button class="next-question button hide"> Avançar </button> <!-- classe hide será para esconder o botão -->
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,179 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@font-face{
+    font-family: 'Oswald', sans-serif;
+ }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+}
+
+/*formatação do botão de compra*/
+button#btn{
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    background-color:green;
+    color: white;
+    box-shadow: 0 5px 0 #006400;
+    display: inline-block;
+    text-decoration: none;
+}
+button#btn:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+button#btn:hover{
+    background-color: #006000;
+    color: #ffffff;
+    box-shadow: 0 5px 0 #003f00;
+}
+
+button#btn a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*formatação de topo */
+div#topo{
+    background-image: url("../imagem/fundo2.jpg");
+    background-attachment:fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+div#topo a{
+    position: absolute;   
+    left: 1000px;
+    top: 80px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div#topo a:hover{
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+/*formatação imagens*/
+header img#login2{
+    position: relative;  
+    left: 950px;
+    top: 80px;
+}
+header img#icone2 {
+    position: absolute;   
+    left: 990px;
+    top: 150px; 
+}
+img#icone{
+    top: 0px;
+    position: relative;
+    border: 1px solid #006400;
+    box-shadow: 1px 1px 4px black ;
+}
+
+/* Formatação do menu */
+nav#menu{
+    display: block; 
+ }
+nav#menu ul{
+     list-style: none;
+     text-transform: uppercase;
+     position: absolute;
+     top: -20px;
+     left: 300px;
+ }
+ 
+nav#menu li{
+     display: inline-block;
+     background-color: #055f05;
+     padding:10px;
+     margin: 2px;
+     transition: background-color 1s;
+     border-radius: 10px;
+ }
+nav#menu li:hover{
+     background-color:  #3ba33b;
+ }
+nav#menu h1{
+     display:none ;
+ }
+ 
+nav#menu a{
+     color: #ffffff;
+     text-decoration: none;
+ }
+ 
+nav#menu a:hover{
+     color:#ffffff;
+     text-decoration: underline;
+ }
+
+/* Formatação do topo */
+div#interface{
+    border:none;
+    box-shadow: 0px 0px 10px rgba (0, 0, 0, .5);
+    padding: 10px;
+    align:center;
+}
+
+/* Formatação do tabela */
+table#tabelaprod {
+    border-radius:15px;
+    top:100%; 
+    width:100%;
+    border-spacing:0px;
+    text-align: center;
+    
+}
+table#tabelaprod td{
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+table#tabelaprod td.ce{
+    background-color: #37a737;
+    vertical-align: center;
+    font-weight: bold;
+}
+
+table#tabelaprod td.cd{
+    background-color: #37a737;
+    vertical-align: left;
+    text-align: left;
+}
+
+table#tabelaprod caption{
+    color:#ffffff;
+    font-size: 13pt;
+    font font-weight: bolder;
+    background-color:#DF0101;
+    border-radius: 10px;
+}
+
+/*formatação do rodapé*/
+footer#rodape {
+    clear: both;
+    border-top: 1px solid green;
+}
+
+footer#rodape p {
+    text-align: center;
+    color: #006000;
+}
+footer#rodape a {
+    text-decoration: none;
+    color:#000000;
+}
+
+

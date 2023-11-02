@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Educação Digital </title>
+    <link rel="shortcut icon" href="imagens/Logo_semfd.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https: //fonts.googleapis.com/css2? família= Poppins:ital,wght@0,200;0,300;0,500;1,400 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilodosite/estiloCurso.css">
+
+
+</head>
+<body>
+    <!-- Menu -->
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="imagens/Logo_semfd.png" alt=""></h1>
+            </div>
+
+                <div class="nav-list">
+                        <ul>
+                            <li class="nav-item"> <a href="" class="nav-link"> Inicio </a> </li>
+                            <li class="nav-item"> <a href="" class="nav-link"> Cursos </a> </li>
+                            <li class="nav-item"> <a href="" class="nav-link"> Sobre </a> </li>
+                        </ul>
+                </div>
+                
+                <div class="login-button">
+                    <button> <a href=""> Login </a> </button>
+                </div>
+
+                <!--Fazendo menu responsivo-->
+                <div class="mobile-menu-icon">
+                   <button onclick="menuShow()"><img class="icon" src="imagens/icons8-menu-100.png" alt="Icone do menu"></button>
+                </div>
+                
+                <div class="mobile-menu">
+                    <ul>
+                        <li class="nav-item"> <a href="" class="nav-link"> Inicio </a> </li>
+                        <li class="nav-item"> <a href="" class="nav-link"> Cursos </a> </li>
+                        <li class="nav-item"> <a href="" class="nav-link"> Sobre </a> </li>
+                    </ul>
+
+                    <div class="login-button">
+                        <button> <a href=""> Login </a> </button>
+                    </div>
+                </div>
+
+        </nav>
+    </header>
+    <div class="corpo">
+       
+        <!--Cards dos cursos-->
+        <main class="cards">
+            <section class="card bot">
+                    <div class="icon ">
+                            <img src="imagens/bullying.jpg" alt="Cyberbullying">
+                    </div>  
+                             
+                    <h3> Cyberbullying </h3>
+                    <span>Curso de cuidados com o Cyberbulling</span>
+                    <button><a href="cyberbullying.html">Iniciar Curso </a></button>
+            </section>
+
+            <section class="card bot">
+
+                <div class="icon">
+                    <img src="imagens/compras.jpg" alt="Compras Online">
+                </div>
+                    <h3> Compras Online</h3>
+                    <span>Curso de cuidados com Compras Oline</span>
+                    <button><a href="comprason.html">Iniciar Curso </a></button>
+
+
+            </section>
+
+            <section class="card bot">
+
+                <div class="icon">
+                    <img src="imagens/haker.jpg" alt="Pedofilia">
+                </div>
+                <h3>Cuidado com Internet</h3>
+                <span></span>
+                <button><a href="cuidadoint.html">Iniciar Curso </a></button>
+
+            </section>
+
+            <section class="card bot">
+                <div class="icon">
+                    <img src="imagens/quiz.jpg" alt="quiz">
+                </div>
+                <h3> Quiz </h3>
+                <span>Vamos Inciar a diversão </span>
+                <button><a href="quiz.html">Iniciar Quiz</a></button>
+            </section>
+             
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
