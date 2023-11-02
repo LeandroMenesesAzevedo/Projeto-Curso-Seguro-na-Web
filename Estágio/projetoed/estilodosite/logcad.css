@@ -23,7 +23,7 @@ main{
 section#login {
         background-color: #ffff;
         width: 250px;
-        height: 500px;
+        height: 510px;
         border-radius: 20px;
 
         /*Alinhando no centro da tela*/
@@ -73,4 +73,65 @@ section#login > div#formulario{
 div#formulario >h1{
     text-align: center;
     margin-bottom: 10px;
+}
+
+div#formulario >p{
+    font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: #315e4d;
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+div.campo > span{
+    font-size: 0.8em;
+}
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    padding-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #016d44;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover{
+        background-color: #09a368;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    padding-top: 5px;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    background-color: #ffffff;
+    color:#14c581;
+    border: 1px solid #14c581;
+    border-radius: 7px;
+}
+
+form > a.botao > i{
+        font-size: 0.8em;
+}
+
+form > a.botao:hover{
+    background-color: #14c581;
+    color:#ffffff;
 }
