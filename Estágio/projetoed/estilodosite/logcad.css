@@ -123,6 +123,7 @@ div.campo > input{
 div.campo > input:focus{
     background-color: #ffffff;
 }
+
 form > input[type=submit]{
     display: block;
     font-size: 1em;
@@ -171,14 +172,17 @@ section#cadastro h1{
     font-weight: bold;
     color: #016d44;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+
 }
 
 section#cadastro p{
     font-size: 1em;
     text-align: justify;
     color: #016d44;
-    margin-bottom: 5px;
+    margin: 20px 10px;
+    border: none;
+    border-radius: 7px;
 }
 section#cadastro {
     background-color: #ffff;
@@ -193,4 +197,30 @@ section#cadastro {
     overflow: hidden; /*Tudo que estiver fora da borda ficara escondido*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.454);
     transform: translate(-50%, -50%); /*irá tira 50% do valor do top e do lef*/
+}
+
+section#cadastro input{
+    font-size: 1em;
+    height: 100%;
+    width: 30%;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+section#cadastro input[type=submit]{
+    display: block;
+    font-size: 1em;
+    padding-top: 5px;
+    margin:auto;
+    width: 50%;
+    height: 40px;
+    background-color: #016d44;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+section#cadastro input[type=submit]:hover{
+    background-color: #09a368;
 }
