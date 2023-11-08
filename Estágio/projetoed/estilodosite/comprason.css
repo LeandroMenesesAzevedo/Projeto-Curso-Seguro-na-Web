@@ -26,9 +26,11 @@
 
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
-    color: #000000;
+    color: #ffff;
+    background-color: #5182bd;
     font-family:'Noto Sans', sans-serif;
     margin-bottom: 10px;
+    width:20%;
 }
 
 .containerproje .slide-container .slide .contentproje p{
