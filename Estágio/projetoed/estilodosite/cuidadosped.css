@@ -1,0 +1,146 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@100;200;400;500 & family= Poppins:ital,wght@0,200;0,300;0,500; 1.400 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerproje{
+    position: relative;
+}
+
+.containerproje .slide-container .slide {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-wrap:wrap;
+        gap: 15px;
+        padding: 20px 9%;
+        padding-bottom: 70px;
+}
+
+.containerproje .slide-container .slide .contentproje {
+        flex: 1 1 350px;
+}
+
+.containerproje .slide-container .slide .contentproje h3{
+    font-size: 35px;
+    color: #ffff;
+    background-color: #964556;
+    font-family:'Noto Sans', sans-serif;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width:20%;
+}
+
+.containerproje .slide-container .slide .contentproje p{
+    font-size: 20px;
+    color: #ffff;
+    background-color: #964556;
+    font-family: 'Noto Sans',sans-serif;
+    text-align: justify;
+    text-indent: 1rem;
+    border-radius: 8px;
+    padding: 15px;
+    width: 25%;
+    height: 30%;
+}
+
+
+.containerproje .slide-container{
+    display: none;
+}
+
+.containerproje .slide-container.active{
+    display: block;
+}
+
+.containerproje .slide-container:nth-child(1) .slide{
+    background: url(../imagens/pedofilia.jpg);
+    background-color: #B86251;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerproje .slide-container:nth-child(2) .slide{
+    background: url(../imagens/pedofilia.jpg);
+    background-color: #B86251;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerproje .slide-container:nth-child(3) .slide{
+    background: url(../imagens/pedofilia.jpg);
+    background-color: #B86251;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerproje .slide-container:nth-child(4) .slide{
+    background: url(../imagens/lembre.jpg);
+    background-color: #ffff;
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.containerproje .slide-container .slide .contentproje .bntproje {
+    margin-top: 10px;
+    padding: 10px;
+    display: inline-block;
+    background: #964556;
+    color:#ffff;
+    font-size:17px;
+    border-radius: 5px;
+    border: 2px solid #964556;
+    font-family: 'Noto Sans',sans-serif;
+    text-decoration: none;
+}
+
+.containerproje .slide-container .slide .contentproje .bntproje:hover{
+    background: #B86251;
+    border: 2px solid #B86251;
+    color: #ffff;
+}
+
+.containerproje #prev, .containerproje #next{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #2c1619;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            font-size: 25px;
+            text-align: center;
+            cursor: pointer;
+            font-weight: bolder;
+            border-radius: 50px;
+}
+
+.containerproje #prev:hover, .containerproje #next:hover{
+    background: #7e3a49;
+}
+
+.containerproje #prev{
+    left: 20px;
+}
+
+.containerproje #next{
+    right: 20px;
+}
