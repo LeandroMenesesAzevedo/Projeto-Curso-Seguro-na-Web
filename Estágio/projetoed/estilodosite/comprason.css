@@ -21,9 +21,16 @@
 }
 
 .containerproje .slide-container .slide .contentproje {
-        flex: 1 1 350px;
+    flex: 1 1 350px;
+    animation: slideContent .5s linear .5s backwards;
 }
 
+@keyframes slideContent{0%
+{
+opacity: 0;
+transform: translateX(-50px);
+}
+}
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 35px;
     color: #ffff;
@@ -132,10 +139,11 @@
             top: 50%;
             transform: translateY(-50%);
             background: #5182bd;
-            height: 50px;
-            width: 50px;
-            line-height: 50px;
-            font-size: 25px;
+            color: #ffff;
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+            font-size: 35px;
             text-align: center;
             cursor: pointer;
             font-weight: bolder;

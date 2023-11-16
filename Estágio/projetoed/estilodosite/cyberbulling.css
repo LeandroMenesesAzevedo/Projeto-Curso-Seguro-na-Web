@@ -22,8 +22,16 @@
 
 .containerproje .slide-container .slide .contentproje {
         flex: 1 1 350px;
+        animation: slideContent .5s linear .5s backwards;
 }
 
+@keyframes slideContent{0%
+{
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+}
 .containerproje .slide-container .slide .contentproje h3{
     font-size: 30px;
     color: #000000;
@@ -64,7 +72,6 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
- 
 }
 
 .containerproje .slide-container:nth-child(2) .slide{
@@ -85,7 +92,6 @@
     background-repeat: no-repeat;
     width: 100vw;
     height: 100vh;
- 
 }
 
 .containerproje .slide-container:nth-child(4) .slide{
@@ -132,11 +138,12 @@
             top: 50%;
             transform: translateY(-50%);
             background: #01787e;
+            color: #ffff;
             box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.466);
-            height: 50px;
-            width: 50px;
-            line-height: 50px;
-            font-size: 25px;
+            height: 60px;
+            width: 60px;
+            line-height: 60px;
+            font-size: 35px;
             text-align: center;
             cursor: pointer;
             font-weight: bolder;
@@ -145,10 +152,6 @@
 
 .containerproje #prev:hover, .containerproje #next:hover{
     background: #ffa24d;
-}
-
-.containerproje #prev :nth-child(1){
-    
 }
 
 .containerproje #prev{
