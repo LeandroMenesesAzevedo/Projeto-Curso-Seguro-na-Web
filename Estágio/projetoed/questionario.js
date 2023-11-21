@@ -96,18 +96,24 @@ function finishGame(){
 
         switch(true){
             case (performace >= 90):
-                message ="Excelente :D"
+                message =` <p> Parabéns você foi aprovado no curso </p>
+                <a href="imagens/certificado.pdf" target= "_blank" class="bntproje">  Imprimir Certificado </a> `
             break
             
             case (performace >= 70):
-                message= "Muito Bom :D"
+               message =` <p> Parabéns você foi aprovado no curso </p>
+               <a href="imagens/certificado.pdf" target= "_blank" class="bntproje"> Imprimir Certificado </a> `
             break
 
             case(performace >= 50):
-                message= "Bom"
+                message=`<p> Faltou pouco para você conseguir concluir tente novamente</p>
+                <button onclick=window.location.reload() class= "button"> Refazer teste</button>
+                `
             break
             default:
-            message ="Pode melhorar"
+                message=`<p> Faltou pouco para você conseguir concluir tente novamente</p>
+                <button onclick=window.location.reload() class= "button"> Refazer teste</button>
+                `
         }
 
         $questionsContainer.innerHTML= 
@@ -116,7 +122,7 @@ function finishGame(){
                 Você acertou ${totalCorrect} de ${totalQuestion} questões!
                 <span> Resultado ${message}</span>
             </p>
-            <button onclick=window.location.reload() class= "button"> Refazer teste</button>
+            
             <a href="home.html" class="bntproje"> Voltar a para os cursos </a>
          `
 }
