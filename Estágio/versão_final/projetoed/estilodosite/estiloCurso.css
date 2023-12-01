@@ -1,0 +1,241 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background-color: #c4ebeb;
+    height: 100vh;
+    width:100%;
+}
+
+header{
+    background-image:linear-gradient(to left,#047946, #00846f, #019690,#21cdcaa4);
+    box-shadow: 0px 3px 10px black;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height:130px;  
+}
+
+.nav-list{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item{
+    margin: 0 10px ;
+}
+
+.nav-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:#fff;
+    font-weight: 400;
+}
+
+.login-button button{
+    border: none;
+    background-color: #4ee7a578;
+    padding: 10px  15px;
+    border-radius: 10px;
+}
+
+.login-button button a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+/*Menu responsivo*/
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display:none;
+}
+
+@media screen and (max-width: 730px) {
+    .logo img{
+        height:80px;  
+    }
+    
+    .nav-bar{
+        padding: 1rem 4em;
+    }
+
+    .nav-item{
+        display: none;
+    }
+
+    .login-button{
+        display: none;
+    }
+
+    /*Exibindo o icone do menu*/
+    .mobile-menu-icon{
+        display:block;
+    }
+
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobile-menu ul{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1.2rem;
+    }
+
+    .mobile-menu .login-button{
+        display: block;
+        padding: 1rem 2rem;
+    }
+
+    .mobile-menu .login-button button{
+            width: 100%;
+    }
+    .open{
+        display:block;
+    }
+}
+
+/*estilo dos cards*/
+main.cards{
+       display: flex;
+       justify-content:center;
+        padding: 30px;      
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 40px 16px;
+    border-radius: 8px;
+    max-height: 280px;
+    margin-left: 20px;
+    box-shadow: 20px 20px 50px -30px rgba(0, 0, 0, 0.558);
+}
+
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+
+
+/*Estilo das imagens*/
+main.cards section.card .icon{
+    width: 160px;
+    height: 160px;
+}
+
+main.cards section.card img{
+        width: 100%;
+}
+
+main.cards section.card h3{
+    margin:16px 0;
+}
+
+main.cards section.card span {
+    font-weight:300;
+    max-width: 240;
+    font-size: 80%;
+    margin-bottom: 2px;
+}
+
+main.cards section.card button{
+    padding: 0.5rem 1rem;
+        text-transform: uppercase;
+    border-radius: 30px;
+    border: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 550;
+    font-size: 80%;
+}
+/*Estilo do botão */
+main.cards section.card.bot button{
+    background-image: linear-gradient(to right, #007b4c, #00846f, #019690, #02b6b7);
+    color: white;
+
+}
+main.cards section.card.bot button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*Responsividade*/
+@media screen and (max-width: 960px){
+    main.cards {
+        flex-direction: column;
+    }
+
+    main.cards section.card{
+        margin-left: 0;
+        margin-bottom:32px ;
+    }
+    /*No Ultimo filho*/
+    main.cards section.card:last-child{
+            margin-bottom: 0;
+    }
+
+    .main.cards .tabelaCurso{
+        display: block;
+    }
+    .corpo h1{
+        text-align: center;
+    }
+
+}
+
+.corpo{
+    background: white;
+    margin:auto;
+    margin-top: 50px;
+    min-width:300px; /*Largura minima*/
+    max-width:1000px;/*Largura máxima*/
+    padding-top: 50px;
+    padding-left:30px;
+    padding-right:40px;
+    padding-bottom:30px;
+    border-bottom-left-radius: 10px;/*borda arredondada embaixo lado esquedo*/
+    border-bottom-right-radius: 10px;/*borda arredondada embaixo lado direito*/
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.451);
+    position: relative;
+}
+
+
