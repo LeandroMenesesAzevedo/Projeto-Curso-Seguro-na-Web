@@ -134,36 +134,37 @@ function finishGame(){
 const questions =[
     {
         //Questão
-        questions:" Quanto é 2 + 2 ",
+        questions:" 1 – Qual era a paixão de Lucas? ",
         //Array de resposta
         answers:[
-            {text:" 3 ", correct: false },
-            {text:" 5 ", correct: false},
-            {text:" 4 ", correct: true},
-            {text:" 6 ", correct: false}
+            {text:" Uma paixão por futebol. ", correct: false },
+            {text:" Uma paixão por empinar pipa. ", correct: false},
+            {text:" Uma paixão por computadores e tecnologia. ", correct: true},
+            {text:" Uma paixão por carros. ", correct: false}
         ]
     },
     
     {
         //Questão
-        questions:" Quanto é 3 x 3 ",
+        questions:" 2 – Quando o CyberGuerreiro zombava das fotos de perfil de Lucas, criticava suas postagens e espalhava rumores sobre ele na comunidade virtual que frequentavam, o que Lucas fez?",
+
         //Array de resposta
         answers:[
-            {text:" 6 ", correct: false},
-            {text:" 9 ", correct: true},
-            {text:" 12 ", correct: false},
-            {text:" 3 ", correct: false}
+            {text:" Tentou bloquear o CyberGuerreiro. ", correct: false},
+            {text:" Contou para seus pais o que estava acontecendo. ", correct: true},
+            {text:" Tentou deletar a rede social. ", correct: false},
+            {text:" Brigou com o CyberGuerreiro. ", correct: false}
         ]
     },
 
     {
-        questions:" Quanto é 6 - 1 ",
+        questions:" 3 – O que aprendemos com curso Cyberbulling? ",
 
         answers:[
-            {text:" 5 ", correct: true},
-            {text:" 4 ", correct: false},
-            {text:" 3 ", correct: false},
-            {text:" 2 ", correct: false}
+            {text:" Que devemos ter cuidado com as pessoas na internet e caso ocorra o cyberbulling, devemos contar para nossos pais. ", correct: true},
+            {text:" Não devemos usar rede social. ", correct: false},
+            {text:" Devemos aceitar o cyberbulling. ", correct: false},
+            {text:" Que a internet é um lugar onde se pode fazer qualquer coisa. ", correct: false}
         ]
     }
 
