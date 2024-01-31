@@ -166,6 +166,85 @@ const questions =[
             {text:" Devemos aceitar o cyberbulling. ", correct: false},
             {text:" Que a internet é um lugar onde se pode fazer qualquer coisa. ", correct: false}
         ]
+    },
+
+    {
+        questions:" 4 – Quais são os truques mágicos para fazer compras online de maneira segura?",
+
+        answers:[
+            {text:" A Varinha Mágica, Os Feitiços de Sistema, Comentários Encantados e Livro de Devoluções. ", correct: false },
+            {text:" Livro de Devoluções, Os Comentários Encantados, Os Feitiços de Segurança e Varinha Mágica dos Pais. ", correct: true},
+            {text:" Livro de Receita, Os Comentários Mágicos, Os Feitiços Malvados e Varinha Mágica dos Pais. ", correct: false},
+            {text:" Os Feitiços de Segurança e Varinha Mágica dos Pais. ", correct: false}
+        ]
+    },
+
+    {
+        questions:" 5 – O que aprendemos no curso de compras online?",
+
+        answers:[
+            {text:" Que devemos comprar em qualquer site ou anúncio que aparecer. ", correct: false },
+            {text:" Que podemos comprar sem os pais saberem. ", correct: false},
+            {text:" Que só podemos compra na loja do shopping. ", correct: false},
+            {text:" Que devemos ter cuidado ao comprar qualquer coisa na internet e sempre avisar os pais. Somente após a autorização deles, podemos comprar. ", correct: true}
+        ]
+    },
+
+    {
+        questions:" 6 - Lila era uma garotinha curiosa e inteligente, que adorava explorar o mundo mágico da internet. Quais os cuidados que seus pais ensinaram?",
+
+        answers:[
+            {text:" Compartilhar senhas.", correct: false },
+            {text:" Falar com estranhos na internet. ", correct: false},
+            {text:" Entrar em qualquer site. ", correct: true},
+            {text:" Que devemos ter cuidado ao comprar qualquer coisa na internet e sempre avisar os pais. Somente após a autorização deles, podemos comprar. ", correct: false}
+        ]
+    },
+
+    {
+        questions:" 7 - O que a Lila aprendeu ao conversar com o Mago ? ",
+
+        answers:[
+            {text:" Que é importante ter cuidados na internet e caso conheça uma pessoa pedindo informações pessoais, não informar.", correct: true },
+            {text:" Que sempre poderá compartilhar dados pessoais. ", correct: false},
+            {text:" Que pode acessar qualquer site e compartilhar senha do cartão. ", correct: false},
+            {text:" Que o Mago era seu amigo virtual e não tinha problema em contar seus dados pessoais. ", correct: false}
+        ]
+    },
+
+    {
+        questions:" 8 – O que o Avô Tecnológico ensinou ao grupo de amigos? ",
+
+        answers:[
+            {text:"Nunca falem com estranhos online, como você não falaria na vida real; pense antes de compartilhar fotos ou informações. ", correct: true },
+            {text:" Falem com estranhos online. ", correct: false},
+            {text:" Compartilhe suas fotos ou informações na internet. ", correct: false},
+            {text:" Que o Mago era seu amigo virtual e não tinha problema em contar seus dados pessoais. ", correct: false}
+        ]
+    },
+
+
+    {
+        questions:" 9 - Qual eram os nomes dos amigos do grupo? ",
+
+        answers:[
+            {text:"Enzo, João e Maria. ", correct: false },
+            {text:" Ronaldo, Lucas e Sara. ", correct: false},
+            {text:" Laura, Lucas e Sofia. ", correct: true},
+            {text:" João, Pedro e Lucas. ", correct: false}
+        ]
+    },
+
+
+    {
+        questions:" 10 - Quais informações que o Mago pediu para Lila? ",
+
+        answers:[
+            {text:" Lugar onde gosta de brincar. ", correct: false },
+            {text:" Número do cartão dos pais. ", correct: false},
+            {text:" Telefone de contato. ", correct: false},
+            {text:" O nome da escola de Lila e onde ela morava. ", correct: true}
+        ]
     }
 
 ]
